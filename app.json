@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "MyPulseEDU9th",
-    "slug": "MyPulseEDU9th",
+    "name": "MyPulseEDU",
+    "slug": "MyPulseEDU",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/MyPulselogo.png",
     "scheme": "mypulseedu9th",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -13,25 +13,25 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/images/MyPulselogo.png",
+        "backgroundColor": "#D3D3D3"
       },
       "edgeToEdgeEnabled": true
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/MyPulselogo.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/MyPulselogo.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#D3D3D3"
         }
       ]
     ],
